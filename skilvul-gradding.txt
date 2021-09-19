@@ -1,0 +1,13 @@
+INPUT nilai
+SET nilai2 = nilai
+
+WHILE nilai2 mod 5 != 0
+    ADD nilai2 by 1
+END WHILE
+IF nilai2 - nilai < 3 THEN
+    DISPLAY nilai2
+ELSE
+    DISPLAY nilai
+END IF
+
+
