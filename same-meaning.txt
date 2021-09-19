@@ -1,0 +1,10 @@
+INPUT masukan
+SET x = ""
+
+FOR i IN masukan
+    SET x = i + x
+
+IF masukan = x THEN
+    DISPLAY "True"
+ELSE
+    DISPLAY "False"
