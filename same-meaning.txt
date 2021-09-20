@@ -2,7 +2,11 @@ INPUT masukan
 SET x = ""
 
 FOR i IN masukan
-    SET x = i + x
+    i = masukan.length
+    i >= 0
+    i -= 1
+    x = i + x
+ENDFOR
 
 IF masukan = x THEN
     DISPLAY "True"
