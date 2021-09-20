@@ -5,12 +5,12 @@ SET kata2 = "buzz"
 
 WHILE numbers < n
     ADD numbers by 1
-    IF numbers mod 3 = 0 THEN
+    IF numbers mod 3 = 0 AND numbers mod 5 = 0 THEN
+        DISPLAY kata + kata2
+    ELSE IF numbers mod 3 = 0 THEN
         DISPLAY kata
     ELSE IF numbers mod 5 = 0 THEN
         DISPLAY kata2
-    ELSE IF numbers mod 3 = 0 AND numbers mod 5 = 0 THEN
-        DISPLAY kata + kata2
     ELSE
         DISPLAY numbers
 END WHILE
